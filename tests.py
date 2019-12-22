@@ -2,8 +2,8 @@ import os
 import unittest
 import duolingo
 
-USERNAME = os.environ.get('DUOLINGO_USER', 'ferguslongley')
-PASSWORD = os.environ.get('DUOLINGO_PASSWORD')
+USERNAME = os.environ.get('duo_user')
+PASSWORD = os.environ.get('duo_pass')
 
 
 class DuolingoTest(unittest.TestCase):
